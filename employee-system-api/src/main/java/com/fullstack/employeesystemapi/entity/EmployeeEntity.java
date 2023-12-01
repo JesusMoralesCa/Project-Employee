@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "employee")
+@Table(name = "employees")
 public class EmployeeEntity {
 
     @Id
@@ -13,5 +13,6 @@ public class EmployeeEntity {
     private  long id;
     private String firstName;
     private String lastName;
-    private String emaiId;
+    private String emailId;
+
 }
